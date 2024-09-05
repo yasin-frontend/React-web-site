@@ -1,0 +1,76 @@
+.set {
+    width: 80.5%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.set-act {
+    width: 94.1%;
+    .cards {
+        width: 100%;
+    }
+}
+
+.cards {
+    width: 100%;
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    transition: 0.3s;
+
+    .cardd {
+        width: 290px;
+        height: 110px;
+        background-color: var(--reserve-text-color);
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.247);
+        padding: 12px 15px;
+        gap: 15px;
+        font-family: var(--main-font);
+        position: relative;
+
+        .img {
+            width: 60px;
+            height: 60px;
+            background-color: #D3E2F7;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg {
+                width: 25px;
+                height: 25px;
+                color: #4681D4;
+            }
+        }
+
+        .texx {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 10px;
+
+            span {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                color: #929AA0;
+            }
+            p {
+                color: #929AA0;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 0px;
+            }
+        }
+    }
+}
